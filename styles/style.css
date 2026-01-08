@@ -7,6 +7,7 @@
 /* shared style  */
 body {
   max-width: 1600px;
+  margin: 0 auto;
   font-family: "Inter", sans-serif;
 }
 .btn {
@@ -57,6 +58,16 @@ body {
   color: #fff;
 }
 
+.title h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.title p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+}
+
 /* Specific styles */
 nav {
   max-width: 1360px;
@@ -84,10 +95,11 @@ main {
   height: 674px;
   background: url(../assets/hero-bg.png);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   text-align: center;
 }
-main .hero-content {
+main #hero-content {
   width: 770px;
   height: 100%;
   display: flex;
@@ -97,14 +109,14 @@ main .hero-content {
   align-items: center;
   margin: 0 auto;
 }
-main .hero-content h1 {
+main #hero-content h1 {
   color: #fff;
   font-size: 72px;
   font-weight: 700;
   line-height: 84px;
 }
 
-main .hero-content .white-btn {
+main #hero-content .white-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,11 +124,11 @@ main .hero-content .white-btn {
   border-radius: 1000px;
   margin: 0 auto;
 }
-main .hero-content .green-dot {
+main #hero-content .green-dot {
   width: 16px;
   margin-right: 4px;
 }
-main .hero-content .description {
+main #hero-content .description {
   line-height: 34px;
   font-size: 19px;
   letter-spacing: 0;
@@ -128,4 +140,53 @@ main .hero-btn {
   display: flex;
   gap: 16px;
   justify-content: center;
+}
+#course-advice {
+  width: 1360px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+#course-advice .advice-title {
+  text-align: center;
+}
+#cards{
+display: flex;
+gap: 24px;
+justify-content: center;
+margin-top: 44px;
+}
+#cards .card {
+  width: 332px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  border-radius: 8px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+#cards .card .card-icon {
+  width: 60px;
+  height: 60px;
+  background: rgba(249, 85, 85, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+#cards .card .card-icon img {
+  width: 32px;
+  height: 32px;
+}
+#cards .card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+#cards .card p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #627382;
 }
