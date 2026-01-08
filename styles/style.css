@@ -1,0 +1,131 @@
+/* universal selector  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* shared style  */
+body {
+  max-width: 1600px;
+  font-family: "Inter", sans-serif;
+}
+.btn {
+  background: #469165;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+}
+.btn:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #469165;
+  border: 1px solid #469165;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+}
+.btn-transparent {
+  color: #fff;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+}
+.btn-transparent:hover {
+  cursor: pointer;
+  color: #30b868;
+  background: white;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+}
+.primary {
+  color: #469165;
+}
+.primary-text {
+  color: #30b868;
+}
+.white {
+  color: #fff;
+}
+
+/* Specific styles */
+nav {
+  max-width: 1360px;
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+nav ul {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 32px;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+main {
+  height: 674px;
+  background: url(../assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+main .hero-content {
+  width: 770px;
+  height: 100%;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+main .hero-content h1 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+}
+
+main .hero-content .white-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px;
+  border-radius: 1000px;
+  margin: 0 auto;
+}
+main .hero-content .green-dot {
+  width: 16px;
+  margin-right: 4px;
+}
+main .hero-content .description {
+  line-height: 34px;
+  font-size: 19px;
+  letter-spacing: 0;
+  color: #fff;
+  font-weight: 300;
+}
+
+main .hero-btn {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
