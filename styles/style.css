@@ -13,7 +13,7 @@ body {
 .btn {
   background: #469165;
   color: #fff;
-  border: none;
+  border: 1px solid #469165;
   border-radius: 4px;
   font-size: 16px;
   font-weight: 600;
